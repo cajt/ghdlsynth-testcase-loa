@@ -1,0 +1,16 @@
+<library>
+  <repositories>
+    <!--<repository><path>../loa-hdl/loa-hdl.lb</path></repository>-->
+    <repository><path>../../fpga_lcd_translator/loa-hdl/loa-hdl.lb</path></repository>
+  </repositories>
+  <options>
+    <option name="loa-hdl:spislave:testbench">false</option>
+  </options>
+  <modules>
+    <!--<module>loa-hdl:*</module>-->
+    <module>loa-hdl:peripheral_register</module>
+    <module>loa-hdl:hdlc</module>
+    <module>loa-hdl:uart</module>
+    <module>loa-hdl:fifo_sync</module>
+  </modules>
+</library>
